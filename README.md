@@ -8,20 +8,20 @@ Entrega PS PHP
 
 **Comandos abaixo para subir ou testar o serviço**
 
-`php artisan migrate` = Para criar as tabelas baseando nos models;
+`php artisan migrate:fresh` = Para criar as tabelas baseando nos models;
 
 `composer dump-autoload` Recarrega a lista de classes, pacotes e bibliotecas que estão dentro do seu projeto no arquivo de autoload;
 
-`composer require doctrine/dbal` = este comando ajuda na instalação da dependencia do driver do banco;
+`composer require doctrine/dbal` Este comando ajuda na instalação da dependencia do driver do banco;
+
+`php artisan route:list` = Exibe a lista de rotas(endpoints);
 
 `php artisan serve` = Para subir o serviço;
-
-`php artisan route::list` = Exibe a lista de rotas(endpoints);
-
+----------
 
 **A imagem EndPoints.PNG é referente aos endpoints e rotas que usamos no serviço:**
 
-![alt text](https://github.com/gabrielfellone/n2020/blob/master/EndPoints.PNG?raw=true)
+![alt text](https://github.com/gabrielfellone/n2020/blob/master/endpoint.PNG?raw=true)
 
 
 ### Alunos:
